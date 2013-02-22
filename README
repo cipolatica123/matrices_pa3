@@ -1,0 +1,36 @@
+Alberto Plata
+amplataforgit@gmail.com
+
+ ---- ABOUT THE FILES ----
+List.java:
+Contains the List ADT to be used by the Matrix.java file.
+
+ListTest.java:
+This file was used to test the List ADT in List.java.
+Within this file are some commented lines that can be 
+used to activate the RuntimeException from List.java. 
+In order to run this program please alter the Makefile 
+to run ListTest.java instead of Sparse.java. 
+
+Matrix.java:
+This file conatains the Matrix ADT to be used by Sparse.java. 
+
+MatrixTest.java:
+This file was used to test the Matrix ADT in Matrix.java.
+Within this file are some commented lines that can be 
+used to activate the RuntimeException from Matrix.java. 
+In order to run this program please alter the Makefile 
+to run MatrixTest.java instead of Sparse.java. 
+
+Sparse.java:
+This is the main java file. It reads in a file, in1.txt, which 
+contains data for matrices. Sparse.java utilizes the Matrix.java
+file to build the required matrices. Arithmetic operations are 
+perfromed on the matrices and the results are sent to an output
+file (I called it out1.txt).
+
+Makefile:
+This Makefile is currently set to run the main file, Sparse.java.
+This Makefile must be altered to run the MatrixTest.java file and
+ListTest.java. 
+
