@@ -3,10 +3,9 @@ amplataforgit@gmail.com
 
  ---- ABOUT THE PROGRAM ----
 This program reads in a file, in1.txt, which contains data
-for two matrices, which we'll name A and B. Arithmetic 
-operations such as A+B, A+A, B-A, A-A, transpose(A), A*B 
-and B^2 are performed on A and B. The results are sent to 
-an output file, out1.txt.
+for two matrices, A and B. Arithmetic operations such as 
+A+B, A+A, B-A, A-A, transpose(A), A*B and B^2 are performed 
+on A and B. The results are sent to an output file, out1.txt.
 
  ---- COMPILE & RUN ----
 NOTE: I am assuming you are running this program 
